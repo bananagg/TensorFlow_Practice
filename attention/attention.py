@@ -1,5 +1,5 @@
 import tensorflow as tf
-# attention
+# attention layer
 def attention(inputs, attention_size, time_major=False, return_alphas=False):
     if isinstance(inputs, tuple):
         inputs = tf.concat(inputs, 2)
