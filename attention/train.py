@@ -35,7 +35,7 @@ X_test = fit_in_vocabulary(X_test, vocabulary_size)
 X_train = zero_pad(X_train, SEQUENCE_LENGTH)
 X_test = zero_pad(X_test, SEQUENCE_LENGTH)
 
-# 序列预处理
+# 序列预处理i
 
 with tf.name_scope('Inputs'):
     batch_ph = tf.placeholder(tf.int32, [None, SEQUENCE_LENGTH], name='batch_ph')
